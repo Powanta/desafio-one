@@ -1,7 +1,14 @@
+//Desafio 1 DIO - Classificação de Heróis
+//Desenvolva um código que classifique um herói de acordo com a quantidade de XP que ele possui.
+
+
+//Declarando variáveis
 let nomeDeHeroi = ""
 let xpDeHeroi = 2
 let classificacao = ""
 
+//Condicionais para classificar o herói
+if (xpDeHeroi > 0) {
     if (xpDeHeroi <= 1000) {
         classificacao = "Ferro"
     }
@@ -20,3 +27,6 @@ let classificacao = ""
     else classificacao = "Radiante"
 
     console.log("O herói " + nomeDeHeroi + "está classificado como " + classificacao)
+
+}
+else {console.log("Entre com um valor de XP válido.")}
