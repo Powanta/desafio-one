@@ -4,7 +4,7 @@
 
 //Declarando variáveis
 let nomeDeHeroi = ""
-let xpDeHeroi = 2
+let xpDeHeroi = 2500
 let classificacao = ""
 
 //Condicionais para classificar o herói
@@ -15,11 +15,17 @@ if (xpDeHeroi > 0) {
     else if (xpDeHeroi >= 1001 && xpDeHeroi <= 2000) {
         classificacao = "Bronze"
     }
-    else if (xpDeHeroi >= 2001 && xpDeHeroi <= 5000){
-        classificacao = "Prata-Ouro"
+    else if (xpDeHeroi >= 2001 && xpDeHeroi <= 6000) {
+        classificacao = "Prata"
     }
-    else if (xpDeHeroi >= 5001 && xpDeHeroi <= 9000) {
-        classificacao = "Platina-Diamante"
+    else if (xpDeHeroi >= 6001 && xpDeHeroi <= 7000) {
+        classificacao = "Ouro"
+    }
+    else if (xpDeHeroi >= 7001 && xpDeHeroi <= 8000) {
+        classificacao = "Platina"
+    }
+    else if (xpDeHeroi >= 8001 && xpDeHeroi <= 9000) {
+        classificacao = "Diamante"
     }
     else if (xpDeHeroi >= 9001 && xpDeHeroi <= 10000) {
         classificacao = "Ascendente"
